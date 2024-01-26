@@ -62,7 +62,7 @@ public class FuncionarioController : ControllerBase
         if (funcionarioBanco == null)
             return NotFound();
 
-        funcionarioBanco.Nome = funcionario.Nome;
+        funcionarioBanco.Nome = funcionario.Nome; 
         funcionarioBanco.Endereco = funcionario.Endereco;
         funcionarioBanco.Ramal = funcionario.Ramal;
         funcionarioBanco.EmailProfissional = funcionario.EmailProfissional;
